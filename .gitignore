@@ -1,0 +1,26 @@
+# PlatformIO build artifacts
+.pio/
+.pioenvs/
+.piolibdeps/
+libdeps/
+
+# VS Code / IDE settings
+.vscode/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# C++ compiled files
+*.o
+*.obj
+*.out
+*.hex
+*.bin
+*.elf
