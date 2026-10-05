@@ -66,3 +66,6 @@ Dưới đây là cấu hình chân (Pinout) kết nối giữa vi điều khi�
 | Đèn LED & Còi | GPIO 25 | `OUTPUT` | Tích cực mức CAO (HIGH) |
 | LCD I2C (SDA) | GPIO 21 | I2C Data | Nguồn cấp 5V |
 | LCD I2C (SCL) | GPIO 22 | I2C Clock | Nguồn cấp 5V |
+
+**Link Wokwi mô phỏng mạch ảo:**
+ https://wokwi.com/projects/477044635174522881
