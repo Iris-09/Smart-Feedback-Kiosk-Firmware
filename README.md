@@ -54,3 +54,15 @@ git commit -m "feat: mô tả ngắn gọn vừa làm gì"
 ```bash
 git push origin feat/ten-tinh-nang-cua-ban
 ```
+## Sơ đồ chân (Pin Mapping)
+
+Dưới đây là cấu hình chân (Pinout) kết nối giữa vi điều khiển ESP32 và các module linh kiện trong hệ thống Kiosk:
+
+| Linh kiện | Chân trên ESP32 | Loại tín hiệu | Ghi chú |
+| :--- | :--- | :--- | :--- |
+| Nút TỐT | GPIO 13 | `INPUT_PULLUP` | Tích cực mức THẤP (LOW) |
+| Nút KHÁ | GPIO 32 | `INPUT_PULLUP` | Tích cực mức THẤP (LOW) |
+| Nút TỆ | GPIO 33 | `INPUT_PULLUP` | Tích cực mức THẤP (LOW) |
+| Đèn LED & Còi | GPIO 25 | `OUTPUT` | Tích cực mức CAO (HIGH) |
+| LCD I2C (SDA) | GPIO 21 | I2C Data | Nguồn cấp 5V |
+| LCD I2C (SCL) | GPIO 22 | I2C Clock | Nguồn cấp 5V |
